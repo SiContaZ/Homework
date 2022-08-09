@@ -34,7 +34,6 @@ string[] GetArray()
 
     List <string> arrayLst = new List<string>();
     string buffer = string.Empty;
-    string result = string.Empty;
     while (true)
     {
         Console.WriteLine("Введите элемент массива. Для прекращения ввода введите \"стоп\"");
